@@ -1,0 +1,19 @@
+.avatar-2e8lTP[src*="811036647037993012"] + h3 .username-h_Y3Us {
+    opacity: 1;
+    color: transparent !important;
+    font-weight: bold;
+    background-size: 300%;
+    -webkit-background-clip: text;
+    animation: shine 10s linear infinite;
+    background-image: linear-gradient(-60deg, #ffff00 0%, #dddddd 50%, #00dd00 100%);
+}
+@keyframes shine {
+  to {
+    background-position: 300% center;
+  }
+}
+@keyframes shinereverse {
+  to {
+    background-position: -300% center;
+  }
+}
